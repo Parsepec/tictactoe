@@ -1,0 +1,18 @@
+.g-container{
+    display:grid;
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    width:40%;
+    margin: auto 50px;
+}
+
+.g-container > div {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+body{
+    background-color: gray;
+}
